@@ -38,6 +38,4 @@ Insert : L +  Ln N
  TST: Works only for strings (or digital keys).     Examines just enough key characters and search miss may involve only a few characters. Allows for ordered interation, prefix matches. The data in inserted sorted. 
 I used mutex lock for the atomic operation of inserting input into the TST. Most likely my thread handling can be improved upon. This is one of the rare times I worked with threads. 
 
-But there is one problem I have not been able to fix yet. You will see the error at the end of my output. I am unable to end the lookupWords function gracefully. 
-
 Comments and suggestions are welcome. My inspiration to use TST comes from the recent course I had taken in Coursera "Algorithms II" offered by Princeton University. 
